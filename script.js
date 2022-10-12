@@ -16,6 +16,7 @@ password.addEventListener("input", ()=>{
     }
     if(password.value.length <= 4){
         paraEl.style.display = "block"
+        strengthEl.innerText = "Weak"
         paraEl.style.color = "red"
         blackEl.style.backgroundColor = "red"
     }
